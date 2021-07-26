@@ -1,0 +1,22 @@
+{
+	"name" : "agopaz/sales_taxes_example",
+	"description" : "A basic tax calculation exercise.",
+	"type" : "project",
+	"license" : "MIT licence",
+	"autoload" : {
+		"psr-4" : {
+			"SalesTaxesExample\\" : "src/",
+			"Tests\\" : "tests/"
+		}
+	},
+	"require-dev" : {
+		"phpunit/phpunit" : "^9.5"
+	},
+	"require" : {
+		"php": ">=7.4",
+		"moneyphp/money" : "^3.3",
+		"rubix/ml": "^1.1",
+		"symfony/console": "^5.3",
+		"symfony/event-dispatcher": "^5.3"		
+	}
+}

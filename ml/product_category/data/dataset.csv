@@ -1,0 +1,335 @@
+blood bag,medical
+braces,medical
+rubber gloves,medical
+ambulance,medical
+first aid kit,medical
+microscope,medical
+crutch,medical
+walker,medical
+wheelchair,medical
+cane,medical
+scissors,medical
+scalpel,medical
+syringe,medical
+stethoscope,medical
+pipette,medical
+tooth brush,medical
+thermometer,medical
+dental pick,medical
+saline bag,medical
+glasses,medical
+sunglasses,medical
+dumbbells,medical
+stretcher,medical
+surgical mask,medical
+face mask,medical
+tape,medical
+bandage,medical
+pills,medical
+book,book
+bacon,food
+beef,food
+chicken,food
+cooked meat,food
+duck,food
+ham,food
+kidneys,food
+lamb,food
+liver,food
+mince or minced beef,food
+salami,food
+sausages,food
+pork,food
+pork pie,food
+sausage roll,food
+turkey,food
+veal,food
+apple,food
+apricot,food
+banana,food
+blackberry,food
+blackcurrant,food
+blueberry,food
+cherry,food
+coconut,food
+fig,food
+gooseberry,food
+grape,food
+grapefruit,food
+kiwi fruit,food
+lemon,food
+lime,food
+mango,food
+melon,food
+orange,food
+peach,food
+pear,food
+pineapple,food
+plum,food
+pomegranate,food
+raspberry,food
+redcurrant,food
+rhubarb,food
+strawberry,food
+bunch of bananas,food
+bunch of grapes,food
+anchovy,food
+cod,food
+haddock,food
+herring,food
+kipper,food
+mackerel,food
+pilchard,food
+plaice,food
+salmon,food
+sardine,food
+smoked salmon,food
+sole,food
+trout,food
+tuna,food
+artichoke,food
+asparagus,food
+aubergine,food
+avocado,food
+beansprouts,food
+beetroot,food
+broad beans,food
+broccoli,food
+Brussels sprouts,food
+cabbage,food
+carrot,food
+cauliflower,food
+celery,food
+chilli,food
+chilli pepper,food
+courgette,food
+cucumber,food
+French beans,food
+garlic,food
+ginger,food
+leek,food
+lettuce,food
+mushroom,food
+onion,food
+peas,food
+pepper,food
+pumpkin,food
+radish,food
+rocket,food
+runner beans,food
+swede,food
+sweet potato,food
+potatoes,food
+sweetcorn,food
+tomato,food
+tomatoes,food
+turnip,food
+spinach,food
+spring onion,food
+squash,food
+clove of garlic,food
+stick of celery,food
+baked beans,food
+corned beef,food
+kidney beans,food
+soup,food
+tinned tomatoes,food
+chips,food
+fish fingers,food
+frozen peas,food
+frozen pizza,food
+ice cream,food
+cooking oil,food
+olive oil,food
+stock cubes,food
+butter,food
+cream,food
+cheese,food
+blue cheese,food
+cottage cheese,food
+goats cheese,food
+eggs,food
+free range eggs,food
+margarine,food
+milk,food
+full-fat milk,food
+semi-skimmed milk,food
+skimmed milk,food
+sour cream,food
+yoghurt,food
+baguette,food
+bread rolls,food
+brown bread,food
+white bread,food
+garlic bread,food
+pitta bread,food
+loaf or loaf of bread,food
+sliced loaf,food
+cake,food
+Danish pastry,food
+quiche,food
+sponge cake,food
+baking powder,food
+plain flour,food
+self-raising flour,food
+cornflour,food
+sugar,food
+brown sugar,food
+icing sugar,food
+pastry,food
+yeast,food
+dried apricots,food
+prunes,food
+dates,food
+raisins,food
+sultanas,food
+breakfast cereal,food
+cornflakes,food
+honey,food
+jam,food
+marmalade,food
+muesli,food
+porridge,food
+toast,food
+noodles,food
+pasta,food
+pasta sauce,food
+pizza,food
+rice,food
+spaghetti,food
+ketchup,food
+mayonnaise,food
+mustard,food
+pepper,food
+salad dressing,food
+salt,food
+vinaigrette,food
+vinegar,food
+biscuits,food
+chocolate,food
+crisps,food
+hummus,food
+nuts,food
+olives,food
+peanuts,food
+sweets,food
+walnuts,food
+basil,food
+chives,food
+coriander,food
+dill,food
+parsley,food
+rosemary,food
+sage,food
+thyme,food
+chilli powder,food
+cinnamon,food
+cumin,food
+curry powder,food
+nutmeg,food
+paprika,food
+saffron,food
+organic,food
+meal,food
+milk,food
+eggs,food
+jam,food
+butter,food
+biscuits,food
+crisps,food
+cheese,food
+strawberries,food
+baked beans,food
+ice cream,food
+hamburger,food
+t-shirt,clothes
+sweater,clothes
+jacket,clothes
+coat,clothes
+jeans,clothes
+socks,clothes
+shorts,clothes
+tracksuit,clothes
+vest,clothes
+pajamas,clothes
+shoes,clothes
+boots,clothes
+raincoat,clothes
+tanktop,clothes
+swimsuit,clothes
+skirt,clothes
+dress,clothes
+heels,clothes
+blouse,clothes
+bra,clothes
+panties,clothes
+stockings,clothes
+suit,clothes
+shirt,clothes
+tie,clothes
+bow-tie,clothes
+briefs,clothes
+sun hat,clothes
+wool hat,clothes
+scarf,clothes
+glasses,clothes
+sunglasses,clothes
+bagpack,clothes
+bag,clothes
+earrings,clothes
+bracelet,clothes
+belt,clothes
+handkerchief,clothes
+necklace,clothes
+purse,clothes
+wallet,clothes
+hat,clothes
+cap,clothes
+ring,clothes
+watch,clothes
+shawl,clothes
+beer,beverages
+champagne,beverages
+cocktail,beverages
+coffee,beverages
+espresso,beverages
+juice,beverages
+lemonade,beverages
+milk,beverages
+soda,beverages
+tea,beverages
+whisky,beverages
+wine,beverages
+water,beverages
+cosmetic,beauty
+make-up,beauty
+maquillage,beauty
+paint,beauty
+slap,beauty
+warpaint,beauty
+beauty,beauty
+aids,beauty
+face,beauty
+paint,beauty
+makeup,beauty
+rouge,beauty
+blush,beauty
+blusher,beauty
+lipstick,beauty
+red,beauty
+dye,beauty
+reddener,beauty
+cosmetics,beauty
+greasepaint,beauty
+war,beauty
+paint,beauty
+face,beauty
+powder,beauty
+and,beauty
+paint,beauty
+pancake,beauty
+foundation,beauty
+powder,beauty
+parfume,beauty
+perfume,beauty
+,unknown
