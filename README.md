@@ -1,10 +1,14 @@
 ## How to use
 
-The software was written enterily in php. It use php 7.4 and require composer.<br>
-After downloading the repository, you can run the code directly from your machine, if you have installed php 7.4 (CLI) and composer; or you can use docker to get an environment suitable for executing the code.<br>
+The software was written enterily in php. It use php 7.4 and require composer and mongodb.<br>
+After downloading the repository, you can run the code directly from your machine; or you can use docker to get an environment suitable for executing the code.<br>
 In the first case you need to download the software dependencies manually using the command:
 
 `composer install`
+
+and create a new mongodb database named `sales_taxes`, with a collection named `products`. We need to import into this collection the content of `./mongo/products.json` file with the command:
+
+`mongoimport --db=sales_taxes --collection=product ./mongo/products.json`
 
 In the second case it is necessary to build the docker image with the command:
 
@@ -22,32 +26,18 @@ Otherwise you can run a console into the container using:
 and then you can use all the commands below.
 
 
-## Some preliminary explanations
+## Mongodb
 
-I didn't want to use database to save data and to get product information from orders.
-For this reason the problem arose of identifying whether a product was eligible for the **Basic sales tax** or not.
-
-I thought (only for exercise purposes) to solve this problem using machine learning techniques, to "teach" the software to recognize the category of a product starting from its name.<br>
-Obviously there were so many other possible solutions, but I wanted to have fun with this one.
-
-And so I used RubixML in php to build a simple model, train it with test data (view `./ml/product_category/data/dataset.csv`), and then use it to guess the category of a product.<br>
-I didn't want to get total accuracy, but only something acceptable, with a few lines of code.<br>
-The model obtained easily passes the test with the data provided, but also with other data that I have tested.<br>
-
+I use a mongo database to store same information about products. In particular to store product category in order to identify the products that are exempt from paying the **Basic sales tax**.
 
 
 ## Console command
 
-I created 3 commands callable from the CLI. The command list can be obtained using:
-
-`./src/console.php list`
-
-
-### Order Receipt Command
+I created a command callable from the CLI to test receipts creation.
 
 `./src/console.php orderReceipt`
 
-To test receipts creation. You can provide single or multiple order (view `--multiple` option).<br>
+You can provide single or multiple order (view `--multiple` option).<br>
 And you can save receipt to file (`--output=<file_name>`) or view it on the screen.<br>
 The input data can be provided from a file (`--input==<file_name>`) or interactively if this option will not provided.<br>
 
@@ -57,36 +47,13 @@ Exemples of use:
 `./src/console.php orderReceipt --input=tests/data/order_collection/input.txt --multiple`
 
 
-### Generate Model Command
-
-`./src/console.php productCategory:generateModel`
-
-To generate (trainig and save) machine learning model for product categories.
-
-
-### Guess Category Command
-
-`./src/console.php productCategory:guess <productName>`
-
-To guess a category from a product name.<br>
-Examples of use:
-
-`./src/console.php productCategory:guess shoes`<br>
-`./src/console.php productCategory:guess beer`<br>
-`./src/console.php productCategory:guess chocolate`<br>
-`./src/console.php productCategory:guess syringe`<br>
-
-
 ## Testing
 
 For the exercise purpose you can use the command:
 
 `./vendor/bin/phpunit tests/OrderCollectionTest.php`
 
-to assert that my solution works against the supplied test data (look at `./tests/data/order_collection/input.txt` and `./tests/data/order_collection/output.txt` files to check the input and output data).
-
-I have add another unit test, for validate the model used for guess categories from products names.
-To test the entire testsuite, use:
+or the command:
 
 `./vendor/bin/phpunit --testsuite sales_taxes_exercise`
 

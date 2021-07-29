@@ -117,7 +117,7 @@ class Order
         $taxes = new Money("0.00", $this->_currency);
 
         foreach ($this->_items as $item) {
-            $taxes = $taxes->add($item->getTaxes());
+            $taxes = $taxes->add($item->getTotalTaxes());
         }
 
         return $taxes;

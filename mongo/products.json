@@ -1,0 +1,335 @@
+{"name": "blood bag", "category_name": "medical", "price": 10.00, "currency": "EUR"}
+{"name": "braces", "category_name": "medical", "price": 10.00, "currency": "EUR"}
+{"name": "rubber gloves", "category_name": "medical", "price": 10.00, "currency": "EUR"}
+{"name": "ambulance", "category_name": "medical", "price": 10.00, "currency": "EUR"}
+{"name": "first aid kit", "category_name": "medical", "price": 10.00, "currency": "EUR"}
+{"name": "microscope", "category_name": "medical", "price": 10.00, "currency": "EUR"}
+{"name": "crutch", "category_name": "medical", "price": 10.00, "currency": "EUR"}
+{"name": "walker", "category_name": "medical", "price": 10.00, "currency": "EUR"}
+{"name": "wheelchair", "category_name": "medical", "price": 10.00, "currency": "EUR"}
+{"name": "cane", "category_name": "medical", "price": 10.00, "currency": "EUR"}
+{"name": "scissors", "category_name": "medical", "price": 10.00, "currency": "EUR"}
+{"name": "scalpel", "category_name": "medical", "price": 10.00, "currency": "EUR"}
+{"name": "syringe", "category_name": "medical", "price": 10.00, "currency": "EUR"}
+{"name": "stethoscope", "category_name": "medical", "price": 10.00, "currency": "EUR"}
+{"name": "pipette", "category_name": "medical", "price": 10.00, "currency": "EUR"}
+{"name": "tooth brush", "category_name": "medical", "price": 10.00, "currency": "EUR"}
+{"name": "thermometer", "category_name": "medical", "price": 10.00, "currency": "EUR"}
+{"name": "dental pick", "category_name": "medical", "price": 10.00, "currency": "EUR"}
+{"name": "saline bag", "category_name": "medical", "price": 10.00, "currency": "EUR"}
+{"name": "glasses", "category_name": "medical", "price": 10.00, "currency": "EUR"}
+{"name": "sunglasses", "category_name": "medical", "price": 10.00, "currency": "EUR"}
+{"name": "dumbbells", "category_name": "medical", "price": 10.00, "currency": "EUR"}
+{"name": "stretcher", "category_name": "medical", "price": 10.00, "currency": "EUR"}
+{"name": "surgical mask", "category_name": "medical", "price": 10.00, "currency": "EUR"}
+{"name": "face mask", "category_name": "medical", "price": 10.00, "currency": "EUR"}
+{"name": "tape", "category_name": "medical", "price": 10.00, "currency": "EUR"}
+{"name": "bandage", "category_name": "medical", "price": 10.00, "currency": "EUR"}
+{"name": "headache pills", "category_name": "medical", "price": 10.00, "currency": "EUR"}
+{"name": "book", "category_name": "book", "price": 10.00, "currency": "EUR"}
+{"name": "bacon", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "beef", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "chicken", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "cooked meat", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "duck", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "ham", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "kidneys", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "lamb", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "liver", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "mince or minced beef", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "salami", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "sausages", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "pork", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "pork pie", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "sausage roll", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "turkey", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "veal", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "apple", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "apricot", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "banana", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "blackberry", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "blackcurrant", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "blueberry", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "cherry", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "coconut", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "fig", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "gooseberry", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "grape", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "grapefruit", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "kiwi fruit", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "lemon", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "lime", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "mango", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "melon", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "orange", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "peach", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "pear", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "pineapple", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "plum", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "pomegranate", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "raspberry", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "redcurrant", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "rhubarb", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "strawberry", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "bunch of bananas", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "bunch of grapes", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "anchovy", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "cod", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "haddock", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "herring", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "kipper", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "mackerel", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "pilchard", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "plaice", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "salmon", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "sardine", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "smoked salmon", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "sole", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "trout", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "tuna", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "artichoke", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "asparagus", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "aubergine", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "avocado", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "beansprouts", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "beetroot", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "broad beans", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "broccoli", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "Brussels sprouts", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "cabbage", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "carrot", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "cauliflower", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "celery", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "chilli", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "chilli pepper", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "courgette", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "cucumber", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "French beans", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "garlic", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "ginger", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "leek", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "lettuce", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "mushroom", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "onion", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "peas", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "pepper", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "pumpkin", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "radish", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "rocket", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "runner beans", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "swede", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "sweet potato", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "potatoes", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "sweetcorn", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "tomato", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "tomatoes", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "turnip", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "spinach", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "spring onion", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "squash", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "clove of garlic", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "stick of celery", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "baked beans", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "corned beef", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "kidney beans", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "soup", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "tinned tomatoes", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "chips", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "fish fingers", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "frozen peas", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "frozen pizza", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "ice cream", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "cooking oil", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "olive oil", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "stock cubes", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "butter", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "cream", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "cheese", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "blue cheese", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "cottage cheese", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "goats cheese", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "eggs", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "free range eggs", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "margarine", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "milk", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "full-fat milk", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "semi-skimmed milk", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "skimmed milk", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "sour cream", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "yoghurt", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "baguette", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "bread rolls", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "brown bread", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "white bread", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "garlic bread", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "pitta bread", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "loaf or loaf of bread", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "sliced loaf", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "cake", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "Danish pastry", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "quiche", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "sponge cake", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "baking powder", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "plain flour", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "self-raising flour", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "cornflour", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "sugar", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "brown sugar", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "icing sugar", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "pastry", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "yeast", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "dried apricots", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "prunes", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "dates", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "raisins", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "sultanas", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "breakfast cereal", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "cornflakes", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "honey", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "jam", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "marmalade", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "muesli", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "porridge", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "toast", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "noodles", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "pasta", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "pasta sauce", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "pizza", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "rice", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "spaghetti", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "ketchup", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "mayonnaise", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "mustard", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "pepper", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "salad dressing", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "salt", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "vinaigrette", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "vinegar", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "biscuits", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "chocolate bar", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "chocolates", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "crisps", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "hummus", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "nuts", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "olives", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "peanuts", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "sweets", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "walnuts", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "basil", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "chives", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "coriander", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "dill", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "parsley", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "rosemary", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "sage", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "thyme", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "chilli powder", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "cinnamon", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "cumin", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "curry powder", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "nutmeg", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "paprika", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "saffron", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "organic", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "meal", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "milk", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "eggs", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "jam", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "butter", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "biscuits", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "crisps", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "cheese", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "strawberries", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "baked beans", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "ice cream", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "hamburger", "category_name": "food", "price": 10.00, "currency": "EUR"}
+{"name": "t-shirt", "category_name": "clothes", "price": 10.00, "currency": "EUR"}
+{"name": "sweater", "category_name": "clothes", "price": 10.00, "currency": "EUR"}
+{"name": "jacket", "category_name": "clothes", "price": 10.00, "currency": "EUR"}
+{"name": "coat", "category_name": "clothes", "price": 10.00, "currency": "EUR"}
+{"name": "jeans", "category_name": "clothes", "price": 10.00, "currency": "EUR"}
+{"name": "socks", "category_name": "clothes", "price": 10.00, "currency": "EUR"}
+{"name": "shorts", "category_name": "clothes", "price": 10.00, "currency": "EUR"}
+{"name": "tracksuit", "category_name": "clothes", "price": 10.00, "currency": "EUR"}
+{"name": "vest", "category_name": "clothes", "price": 10.00, "currency": "EUR"}
+{"name": "pajamas", "category_name": "clothes", "price": 10.00, "currency": "EUR"}
+{"name": "shoes", "category_name": "clothes", "price": 10.00, "currency": "EUR"}
+{"name": "boots", "category_name": "clothes", "price": 10.00, "currency": "EUR"}
+{"name": "raincoat", "category_name": "clothes", "price": 10.00, "currency": "EUR"}
+{"name": "tanktop", "category_name": "clothes", "price": 10.00, "currency": "EUR"}
+{"name": "swimsuit", "category_name": "clothes", "price": 10.00, "currency": "EUR"}
+{"name": "skirt", "category_name": "clothes", "price": 10.00, "currency": "EUR"}
+{"name": "dress", "category_name": "clothes", "price": 10.00, "currency": "EUR"}
+{"name": "heels", "category_name": "clothes", "price": 10.00, "currency": "EUR"}
+{"name": "blouse", "category_name": "clothes", "price": 10.00, "currency": "EUR"}
+{"name": "bra", "category_name": "clothes", "price": 10.00, "currency": "EUR"}
+{"name": "panties", "category_name": "clothes", "price": 10.00, "currency": "EUR"}
+{"name": "stockings", "category_name": "clothes", "price": 10.00, "currency": "EUR"}
+{"name": "suit", "category_name": "clothes", "price": 10.00, "currency": "EUR"}
+{"name": "shirt", "category_name": "clothes", "price": 10.00, "currency": "EUR"}
+{"name": "tie", "category_name": "clothes", "price": 10.00, "currency": "EUR"}
+{"name": "bow-tie", "category_name": "clothes", "price": 10.00, "currency": "EUR"}
+{"name": "briefs", "category_name": "clothes", "price": 10.00, "currency": "EUR"}
+{"name": "sun hat", "category_name": "clothes", "price": 10.00, "currency": "EUR"}
+{"name": "wool hat", "category_name": "clothes", "price": 10.00, "currency": "EUR"}
+{"name": "scarf", "category_name": "clothes", "price": 10.00, "currency": "EUR"}
+{"name": "glasses", "category_name": "clothes", "price": 10.00, "currency": "EUR"}
+{"name": "sunglasses", "category_name": "clothes", "price": 10.00, "currency": "EUR"}
+{"name": "bagpack", "category_name": "clothes", "price": 10.00, "currency": "EUR"}
+{"name": "bag", "category_name": "clothes", "price": 10.00, "currency": "EUR"}
+{"name": "earrings", "category_name": "clothes", "price": 10.00, "currency": "EUR"}
+{"name": "bracelet", "category_name": "clothes", "price": 10.00, "currency": "EUR"}
+{"name": "belt", "category_name": "clothes", "price": 10.00, "currency": "EUR"}
+{"name": "handkerchief", "category_name": "clothes", "price": 10.00, "currency": "EUR"}
+{"name": "necklace", "category_name": "clothes", "price": 10.00, "currency": "EUR"}
+{"name": "purse", "category_name": "clothes", "price": 10.00, "currency": "EUR"}
+{"name": "wallet", "category_name": "clothes", "price": 10.00, "currency": "EUR"}
+{"name": "hat", "category_name": "clothes", "price": 10.00, "currency": "EUR"}
+{"name": "cap", "category_name": "clothes", "price": 10.00, "currency": "EUR"}
+{"name": "ring", "category_name": "clothes", "price": 10.00, "currency": "EUR"}
+{"name": "watch", "category_name": "clothes", "price": 10.00, "currency": "EUR"}
+{"name": "shawl", "category_name": "clothes", "price": 10.00, "currency": "EUR"}
+{"name": "beer", "category_name": "beverages", "price": 10.00, "currency": "EUR"}
+{"name": "champagne", "category_name": "beverages", "price": 10.00, "currency": "EUR"}
+{"name": "cocktail", "category_name": "beverages", "price": 10.00, "currency": "EUR"}
+{"name": "coffee", "category_name": "beverages", "price": 10.00, "currency": "EUR"}
+{"name": "espresso", "category_name": "beverages", "price": 10.00, "currency": "EUR"}
+{"name": "juice", "category_name": "beverages", "price": 10.00, "currency": "EUR"}
+{"name": "lemonade", "category_name": "beverages", "price": 10.00, "currency": "EUR"}
+{"name": "milk", "category_name": "beverages", "price": 10.00, "currency": "EUR"}
+{"name": "soda", "category_name": "beverages", "price": 10.00, "currency": "EUR"}
+{"name": "tea", "category_name": "beverages", "price": 10.00, "currency": "EUR"}
+{"name": "whisky", "category_name": "beverages", "price": 10.00, "currency": "EUR"}
+{"name": "wine", "category_name": "beverages", "price": 10.00, "currency": "EUR"}
+{"name": "water", "category_name": "beverages", "price": 10.00, "currency": "EUR"}
+{"name": "cosmetic", "category_name": "beauty", "price": 10.00, "currency": "EUR"}
+{"name": "make-up", "category_name": "beauty", "price": 10.00, "currency": "EUR"}
+{"name": "maquillage", "category_name": "beauty", "price": 10.00, "currency": "EUR"}
+{"name": "paint", "category_name": "beauty", "price": 10.00, "currency": "EUR"}
+{"name": "slap", "category_name": "beauty", "price": 10.00, "currency": "EUR"}
+{"name": "warpaint", "category_name": "beauty", "price": 10.00, "currency": "EUR"}
+{"name": "beauty", "category_name": "beauty", "price": 10.00, "currency": "EUR"}
+{"name": "aids", "category_name": "beauty", "price": 10.00, "currency": "EUR"}
+{"name": "face", "category_name": "beauty", "price": 10.00, "currency": "EUR"}
+{"name": "paint", "category_name": "beauty", "price": 10.00, "currency": "EUR"}
+{"name": "makeup", "category_name": "beauty", "price": 10.00, "currency": "EUR"}
+{"name": "rouge", "category_name": "beauty", "price": 10.00, "currency": "EUR"}
+{"name": "blush", "category_name": "beauty", "price": 10.00, "currency": "EUR"}
+{"name": "blusher", "category_name": "beauty", "price": 10.00, "currency": "EUR"}
+{"name": "lipstick", "category_name": "beauty", "price": 10.00, "currency": "EUR"}
+{"name": "red", "category_name": "beauty", "price": 10.00, "currency": "EUR"}
+{"name": "dye", "category_name": "beauty", "price": 10.00, "currency": "EUR"}
+{"name": "reddener", "category_name": "beauty", "price": 10.00, "currency": "EUR"}
+{"name": "cosmetics", "category_name": "beauty", "price": 10.00, "currency": "EUR"}
+{"name": "greasepaint", "category_name": "beauty", "price": 10.00, "currency": "EUR"}
+{"name": "war", "category_name": "beauty", "price": 10.00, "currency": "EUR"}
+{"name": "paint", "category_name": "beauty", "price": 10.00, "currency": "EUR"}
+{"name": "face", "category_name": "beauty", "price": 10.00, "currency": "EUR"}
+{"name": "powder", "category_name": "beauty", "price": 10.00, "currency": "EUR"}
+{"name": "and", "category_name": "beauty", "price": 10.00, "currency": "EUR"}
+{"name": "paint", "category_name": "beauty", "price": 10.00, "currency": "EUR"}
+{"name": "pancake", "category_name": "beauty", "price": 10.00, "currency": "EUR"}
+{"name": "foundation", "category_name": "beauty", "price": 10.00, "currency": "EUR"}
+{"name": "powder", "category_name": "beauty", "price": 10.00, "currency": "EUR"}
+{"name": "parfume", "category_name": "beauty", "price": 10.00, "currency": "EUR"}
+{"name": "perfume", "category_name": "beauty", "price": 10.00, "currency": "EUR"}

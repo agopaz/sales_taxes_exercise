@@ -4,6 +4,7 @@ namespace SalesTaxesExample\Entities;
 
 use Money\Money;
 use SalesTaxesExample\Entities\Helpers\MoneyHelper;
+use Money\Currency;
 
 /**
  * Model for the order item.
@@ -12,14 +13,22 @@ use SalesTaxesExample\Entities\Helpers\MoneyHelper;
  */
 class OrderItem
 {
+    use PriceTrait, TaxesTrait;
+
     protected $_qty = 1;
     protected $_product = null;
+    protected $_isImported = false;
+    protected $_packageName = "";
 
 
-    public function __construct(Product $product, int $qty = 1)
+    public function __construct(Product $product = null, int $qty = 1, bool $isImported = false, string $packageName = "", string $price = null, ?Currency $currency = null)
     {
         $this->_qty = $qty;
         $this->_product = $product;
+        $this->_isImported = $isImported;
+        $this->_packageName = $packageName;
+
+        $this->setPrice($price, $currency);
     }
 
 
@@ -45,7 +54,7 @@ class OrderItem
 
 
         /**
-         * Parse the string to identify if product is imported, name and package name.
+         * Parse the string to identify if item is imported, product name and package name.
          *
          * NB: the pattern "1 packet of headache imported pills at 9.75" is intentionally
          * parsed as NOT imported item with name: "headache imported pills".
@@ -64,10 +73,10 @@ class OrderItem
             $isImported = true;
         }
 
-        // Create a product:
-        $product = new Product(trim($productName), $price, $isImported, trim($packageName));
+        // Instance of product from mongo db:
+        $product = Product::loadByName(trim($productName));
 
-        return new OrderItem($product, (int)$qty);
+        return new OrderItem($product, (int)$qty, $isImported, trim($packageName), $price);
     }
 
 
@@ -78,7 +87,13 @@ class OrderItem
      */
     public function __toString(): string
     {
-        return sprintf("%s %s: %s", $this->_qty, $this->_product->__toString(), MoneyHelper::getInstance()->asDecimal($this->getTotalAfterTaxes()));
+        return sprintf("%s %s%s%s: %s",
+            $this->_qty,
+            $this->_isImported ? "imported " : "",
+            (!empty($this->_packageName)) ? $this->_packageName . " of " : "",
+            $this->_product->getName(),
+            MoneyHelper::getInstance()->asDecimal($this->getTotalAfterTaxes())
+        );
     }
 
 
@@ -105,14 +120,35 @@ class OrderItem
 
 
     /**
+     * Package name of the product.
+     *
+     * @return string
+     */
+    public function getPackageName(): string
+    {
+        return $this->_packageName;
+    }
+
+
+    /**
+     * Is product imported?
+     *
+     * @return bool
+     */
+    public function getIsImported(): bool
+    {
+        return $this->_isImported;
+    }
+
+
+    /**
      * Grand total of the order item.
      *
      * @return Money
      */
     public function getTotalAfterTaxes(): Money
     {
-        return $this->_product
-                    ->getPriceAfterTaxes()
+        return $this->getPriceAfterTaxes()
                     ->multiply($this->_qty);
     }
 
@@ -122,10 +158,9 @@ class OrderItem
      *
      * @return Money
      */
-    public function getTaxes(): Money
+    public function getTotalTaxes(): Money
     {
-        return $this->_product
-                    ->getTaxes()
+        return $this->getTaxes()
                     ->multiply($this->_qty);
     }
 }

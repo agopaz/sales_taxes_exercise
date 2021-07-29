@@ -15,8 +15,8 @@
 	"require" : {
 		"php": ">=7.4",
 		"moneyphp/money" : "^3.3",
-		"rubix/ml": "^1.1",
 		"symfony/console": "^5.3",
-		"symfony/event-dispatcher": "^5.3"		
+		"symfony/event-dispatcher": "^5.3",
+		"mongodb/mongodb": "^1.9"
 	}
 }

@@ -2,43 +2,61 @@
 
 namespace SalesTaxesExample\Entities;
 
+use Money\Currency;
 use Money\Money;
-use SalesTaxesExample\Entities\Helpers\ProductCategoryHelper;
 
 /**
  * Model for the product.
  *
  * @author Agostino Pagnozzi
  */
-class Product
+class Product extends MongoModel
 {
     use PriceTrait;
 
+    protected $_collectionName = 'products';
     protected $_name = "";
-    protected $_is_imported = false;
-    protected $_package_name = null;
-    protected $_category = null;
+    protected $_categoryName = "";
 
 
     /**
-     * Product
+     * Product.
+     *
+     * @param mixed $id
+     * @param string $name
+     * @param string $categoryName
+     * @param int|float|string|Money $price
+     * @param Currency $currency
+     */
+    public function __construct($id = null, string $name = "", string $categoryName = null, $price = null, ?Currency $currency = null)
+    {
+        $this->_id = $id;
+        $this->_name = $name;
+        $this->_categoryName = $categoryName;
+
+        $this->setPrice($price, $currency);
+    }
+
+
+    /**
+     * Read product from db.
      *
      * @param string $name
-     * @param int|float|string|Money $price
-     * @param bool $isImported
-     * @param string $packageName
+     *
+     * @return Product
      */
-    public function __construct(string $name, $price, bool $isImported = false, string $packageName = null)
+    public static function loadByName(string $name): Product
     {
-        $this->_name = $name;
-        $this->_is_imported = $isImported;
-        $this->_package_name = $packageName;
+        $product = (new static)->getCollection()->findOne(['name' => $name]);
+        // $product = (new static)->getCollection()->findOne(['$text' => [ '$search' => $name ]]);
 
-        // Category:
-        $this->_guessCategory();
+        // Prodotto presente in db:
+        if ($product) {
+            return new Product($product->_id, $product->name, $product->category_name, $product->price, new Currency($product->currency));
+        }
 
-        // Price:
-        $this->setPrice($price);
+        // Prodotto non presente in db:
+        return new Product(null, $name, "unknown");
     }
 
 
@@ -54,69 +72,12 @@ class Product
 
 
     /**
-     * Package name of the product.
+     * Name of product category.
      *
      * @return string
      */
-    public function getPackageName(): string
+    public function getCategoryName()
     {
-        return $this->_package_name;
-    }
-
-
-    /**
-     * Is product imported?
-     *
-     * @return bool
-     */
-    public function getIsImported(): bool
-    {
-        return $this->_is_imported;
-    }
-
-
-    /**
-     * Product category.
-     *
-     * @return ProductCategory
-     */
-    public function getCategory()
-    {
-        return $this->_category;
-    }
-
-
-    /**
-     * Guess category by product name.
-     */
-    protected function _guessCategory()
-    {
-        $this->_category = ProductCategoryHelper::getInstance()->guess($this->_name);
-    }
-
-
-    /**
-     * Represents the product as a string.
-     *
-     * @return string
-     */
-    public function __toString(): string
-    {
-        $fullName = "";
-
-        // Imported product or not:
-        if ($this->_is_imported) {
-            $fullName .= "imported ";
-        }
-
-        // Name of the package:
-        if (!empty($this->_package_name)) {
-            $fullName .= $this->_package_name . " of ";
-        }
-
-        // Name of the product:
-        $fullName .= $this->getName();
-
-        return $fullName;
+        return $this->_categoryName;
     }
 }

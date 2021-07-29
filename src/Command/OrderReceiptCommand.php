@@ -241,7 +241,30 @@ class OrderReceiptCommand extends Command
         // Product:
         $product = $this->_askForProduct($input, $output);
 
-        return new OrderItem($product, $qty);
+        // Is imported:
+        $isImportedQuestion = new ConfirmationQuestion(
+            '<comment>Is imported? [yN]</comment> ',
+            false
+        );
+        $isImported = $helper->ask($input, $output, $isImportedQuestion);
+
+        // Package name:
+        $packageNameQuestion = new Question('<comment>Package:</comment> ');
+        $packageName = $helper->ask($input, $output, $packageNameQuestion);
+
+        // Price:
+        while(true) {
+            $priceQuestion = new Question('<comment>Price:</comment> ');
+            $price = $helper->ask($input, $output, $priceQuestion);
+            if ((float)$price > 0) {
+                $price = (float)$price;
+                break;
+            }
+
+            $this->_clearAskedQuestion($output);
+        }
+
+        return new OrderItem($product, $qty, $isImported, $packageName, $price);
     }
 
 
@@ -260,35 +283,11 @@ class OrderReceiptCommand extends Command
             $this->_clearAskedQuestion($output);
         }
 
-        // Price:
-        while(true) {
-            $priceQuestion = new Question('<comment>Price:</comment> ');
-            $price = $helper->ask($input, $output, $priceQuestion);
-            if ((float)$price > 0) {
-                $price = (float)$price;
-                break;
-            }
-
-            $this->_clearAskedQuestion($output);
-        }
-
-        // Is imported:
-        $isImportedQuestion = new ConfirmationQuestion(
-            '<comment>Is imported? [yN]</comment> ',
-            false
-            );
-        $isImported = $helper->ask($input, $output, $isImportedQuestion);
-
-
-        // Package name:
-        $packageNameQuestion = new Question('<comment>Package:</comment> ');
-        $packageName = $helper->ask($input, $output, $packageNameQuestion);
-
         // Product:
-        $product = new Product($name, $price, $isImported, $packageName);
+        $product = Product::loadByName($name);
 
         // Category:
-        $output->writeln("<comment>Category guessed:</comment> " . $product->getCategory()->getName());
+        $output->writeln("<comment>Category:</comment> " . $product->getCategoryName());
 
         return $product;
     }
