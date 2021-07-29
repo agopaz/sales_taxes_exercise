@@ -24,5 +24,3 @@ RUN composer install
 
 ENTRYPOINT [ "./entrypoint.sh" ]
 CMD [ "./vendor/bin/phpunit", "tests/OrderCollectionTest.php" ];
-
-#CMD [ "./vendor/bin/phpunit", "tests/OrderCollectionTest.php" ]
