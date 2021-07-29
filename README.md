@@ -17,7 +17,7 @@ And then start a container with the command:
 The default command of the image executes the test case that assert that my solution works against the supplied test data (view below for more details).
 Otherwise you can run a console into the container using:
 
-`docker run -it --entrypoint bash sales_taxes_exercise`
+`docker run -it sales_taxes_exercise /bin/bash`
 
 and then you can use all the commands below.
 
