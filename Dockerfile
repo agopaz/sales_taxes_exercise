@@ -20,7 +20,7 @@ RUN pecl install mongodb && docker-php-ext-enable mongodb
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
 # Download project dependencies with composer:
-RUN composer install
+RUN composer install -n
 
 ENTRYPOINT [ "./entrypoint.sh" ]
 CMD [ "./vendor/bin/phpunit", "tests/OrderCollectionTest.php" ];
